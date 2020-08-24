@@ -1,12 +1,12 @@
 import styled from "styled-components/native";
-import Constants from 'expo-constants';
 import {SimpleLineIcons} from "@expo/vector-icons";
 import {colors, fontSize, metrics} from "../../theme";
 import {TextInput} from "react-native";
 
 export const Wrapper = styled.View`
   width: 100%;
-  padding-top: ${Constants.statusBarHeight};
+  padding-horizontal: ${metrics.baseMargin};
+  margin-top: 25%;
 `;
 
 export const SearchBar = styled.View`

@@ -14,7 +14,7 @@ const HomeScreen = ({navigation}) => {
     React.useLayoutEffect(() => {
         navigation.setOptions({
             headerRight: () => (
-                <IconButton icon="magnifier" onPress={() => navigation.navigate('Search', {comics: comics})}/>
+                <IconButton icon="magnifier" onPress={() => navigation.navigate('Search')}/>
             ),
         });
     }, [navigation]);

@@ -14,3 +14,4 @@ export const Wrapper = styled.TouchableOpacity`
     opacity: 0.3;
     elevation: 5;
 `;
+
